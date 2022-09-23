@@ -6,6 +6,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment: KongAir-Prod
     steps:
       - uses: actions/checkout@v2
       - uses: kong/setup-inso@v1
